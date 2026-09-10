@@ -1,28 +1,21 @@
-# FOODORA — Food Ordering & Meal Kits
+# FOODORA — Complete Enhanced Website
 
-Basic multi-page HTML/CSS/JavaScript commerce prototype.
+This package is the redesigned FOODORA meal-kit / rice-bowl prototype.
 
-Theme: FOODORA
-Pages:
-- index.html
-- shop.html
-- product.html
-- collections.html
-- how-it-works.html
-- checkout.html
-- account.html
-- login.html
-- signup.html
+## Key changes
+- Replaced the old text logo with the new FOODORA bowl/rice logo asset at `assets/images/foodora-logo.png`.
+- Header now uses **LOGIN** instead of a Basket button and has no Account menu.
+- Removed `account.html`.
+- Added `about.html` with company story and demo contact details.
+- Added a working mobile hamburger navigation on all normal site pages.
+- Added 12 browse collections, including 8 additional shop collection choices.
+- Added 12 collection cards on the Collections page, including 5 additional collections.
+- Replaced generic dropdown filters with a distinctive pill/rail filtering pattern and custom sort menu.
+- Added richer food photography, meal cards, hover imagery, quick add, quantity controls and an internal table drawer after adding meals.
+- Added extra, page-specific editorial sections so pages do not feel like copies of each other.
+- Preserved account-free shopping and demo checkout.
+- Dark mode and RTL styles remain available.
+- HTML + CSS + JavaScript only; no framework added.
 
-Rules implemented:
-- Shared header/footer on normal pages.
-- Login/signup have no normal header/footer.
-- Account links route to account/login experience.
-- No real authentication.
-- Shopping and demo checkout work without an account.
-- Basket persists with localStorage.
-- No real payments.
-- Dark mode stylesheet and RTL stylesheet included.
-- Food-related animations: floating dish, ingredient reveals, recipe progression, product lift, cart/toast interactions.
-
-Visual placeholders use food emoji so the basic version works without external image assets. Replace them with real food photography later.
+## Demo note
+Remote Unsplash food photography is used for the prototype. Replace the image URLs with final local assets under `assets/images/` for production.
