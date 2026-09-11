@@ -1,1 +1,328 @@
-@media(prefers-color-scheme:dark){:root{--paper:#211f1a;--cream:#312c24;--ink:#f8f0e3;--muted:#d4ccbd;--line:#514a3e;--paper2:#27231e;--green:#8bae6b;--red:#f17a68}body{background:var(--paper);color:var(--ink)}.site-header{background:rgba(33,31,26,.96)}.site-header nav a{color:#d4ccbd}.site-header nav a.active,.site-header nav a:hover{color:var(--red)}.site-header nav a.active:after{background:var(--red)}.login-btn,.add,.filter-list button:hover,.filter-list button.active{background:var(--ink);color:#211f1a;border-color:var(--ink);font-weight:700}.login-btn:hover,.add:hover{background:var(--red);border-color:var(--red);color:#ffffff}.outline-btn{color:var(--ink);border-color:var(--ink)}.outline-btn:hover{background:var(--ink);color:#211f1a}.text-link{color:var(--ink)}.eyebrow{color:var(--green)}.badge{background:#3a3329;color:var(--green);border:1px solid #514a3e}.view-meal{background:rgba(41,37,31,.95);color:var(--ink)}.floating-note{background:#29251f;border-color:var(--line);color:var(--ink)}.floating-note.note-c{color:var(--red)}.product-card,.collection-card,.how-panel,.auth-shell,.auth-form,.checkout-form input,.checkout-form textarea,.checkout-summary,.search-wrap input,.sort-button,.sort-menu,.sort-menu button,.search-suggestions,.serving-choice button,.detail-thumbs button,.pair-card,.recipe-stage,.cart-drawer,.slot,.payment-row label,.auth-card{background:#29251f;color:var(--ink)}.product-info p,.page-intro p,.section-intro p,.story-copy p,.how-step p,.collection-copy p,.pairing-section p,.checkout-form input::placeholder,.checkout-form textarea::placeholder,.auth-form>p,.auth-form .small{color:var(--muted)}.card-meta{color:var(--muted)}.card-meta span:last-child{color:var(--red)}.section.alt,.shop-note .note-panel:first-child,.collection-strip,.ingredient-card,.detail-facts span,.empty-cart .outline-btn{background:#3a3329}.footer{background:#171512}.footer-col a,.footer p,.footer-newsletter p,.footer-bottom,.footer-legal a{color:var(--muted)}.footer-col a:hover,.footer-legal a:hover{color:var(--red)}.footer-col b,.footer-newsletter b{color:var(--green)}.social-icon{background:#29251f;border-color:var(--line);color:var(--ink)}.social-icon:hover{background:var(--red);border-color:var(--red);color:#ffffff}.newsletter-form input{background:#29251f;color:var(--ink);border-color:var(--line)}.newsletter-form button:hover{background:var(--ink);color:#211f1a;border-color:var(--ink)}.about-hero,.hero,.how-hero{background:#332d24}.search-suggestions a:hover,.sort-menu button:hover,.sort-menu button.active,.slot.active{background:#3a3329}.auth{background:#211f1a}.auth-form input{background:#211f1a;color:var(--ink)}.auth-art img{filter:brightness(0) invert(1)}.payment-row label{border-color:var(--line)}.category-stack button.active{background:#3a3329;color:var(--red);border-color:var(--red)}.social-login-btn{background:#29251f;color:var(--ink);border-color:var(--line)}.social-login-btn:hover{background:#3a3329;border-color:var(--ink)}}
+@media(prefers-color-scheme:dark) {
+    :root {
+        --paper: #211f1a;
+        --cream: #312c24;
+        --ink: #f8f0e3;
+        --muted: #d4ccbd;
+        --line: #514a3e;
+        --paper2: #27231e;
+        --green: #8bae6b;
+        --red: #f17a68
+    }
+
+    body {
+        background: var(--paper);
+        color: var(--ink)
+    }
+
+    .site-header {
+        background: rgba(33, 31, 26, .96)
+    }
+
+    .site-header nav a {
+        color: #d4ccbd
+    }
+
+    .site-header nav a.active,
+    .site-header nav a:hover {
+        color: var(--red)
+    }
+
+    .site-header nav a.active:after {
+        background: var(--red)
+    }
+
+    .login-btn,
+    .add,
+    .filter-list button:hover,
+    .filter-list button.active {
+        background: var(--ink);
+        color: #211f1a;
+        border-color: var(--ink);
+        font-weight: 700
+    }
+
+    .login-btn:hover,
+    .add:hover {
+        background: var(--red);
+        border-color: var(--red);
+        color: #ffffff
+    }
+
+    .outline-btn {
+        color: var(--ink);
+        border-color: var(--ink)
+    }
+
+    .outline-btn:hover {
+        background: var(--ink);
+        color: #211f1a
+    }
+
+    .text-link {
+        color: var(--ink)
+    }
+
+    .eyebrow {
+        color: var(--green)
+    }
+
+    .badge {
+        background: #3a3329;
+        color: var(--green);
+        border: 1px solid #514a3e
+    }
+
+    .view-meal {
+        background: rgba(41, 37, 31, .95);
+        color: var(--ink)
+    }
+
+    .floating-note {
+        background: #29251f;
+        border-color: var(--line);
+        color: var(--ink)
+    }
+
+    .floating-note.note-c {
+        color: var(--red)
+    }
+
+    .product-card,
+    .collection-card,
+    .how-panel,
+    .table-rules div,
+    .value {
+        background: #29251f;
+        border-color: var(--line);
+        color: var(--ink)
+    }
+
+    .table-rules h3,
+    .value h3 {
+        color: var(--ink)
+    }
+
+    .table-rules span,
+    .value p {
+        color: var(--muted)
+    }
+    .big-copy,
+    .auth-shell,
+    .auth-form,
+    .checkout-form input,
+    .checkout-form textarea,
+    .checkout-summary,
+    .search-wrap input,
+    .sort-button,
+    .sort-menu,
+    .sort-menu button,
+    .search-suggestions,
+    .serving-choice button,
+    .detail-thumbs button,
+    .pair-card,
+    .recipe-stage,
+    .cart-drawer,
+    .slot,
+    .payment-row label,
+    .auth-card {
+        background: #29251f;
+        color: var(--ink)
+    }
+
+    .product-info p,
+    .page-intro p,
+    .section-intro p,
+    .story-copy p,
+    .how-step p,
+    .collection-copy p,
+    .pairing-section p,
+    .checkout-form input::placeholder,
+    .checkout-form textarea::placeholder,
+    .auth-form>p,
+    .auth-form .small {
+        color: var(--muted)
+    }
+
+    .card-meta {
+        color: var(--muted)
+    }
+
+    .card-meta span:last-child {
+        color: var(--red)
+    }
+
+    .section.alt,
+    .shop-note .note-panel:first-child,
+    .collection-strip,
+    .ingredient-card,
+    .detail-facts span,
+    .empty-cart .outline-btn {
+        background: #3a3329
+    }
+
+    .mini-collections a {
+        background: #29251f;
+        color: var(--ink);
+        border-color: var(--line)
+    }
+
+    .mini-collections a:hover {
+        background: #3a3329;
+        color: var(--red);
+        border-color: var(--red)
+    }
+
+    .footer {
+        background: #171512
+    }
+
+    .footer-col a,
+    .footer p,
+    .footer-newsletter p,
+    .footer-bottom,
+    .footer-legal a {
+        color: var(--muted)
+    }
+
+    .footer-col a:hover,
+    .footer-legal a:hover {
+        color: var(--red)
+    }
+
+    .footer-col b,
+    .footer-newsletter b {
+        color: var(--green)
+    }
+
+    .social-icon {
+        background: #29251f;
+        border-color: var(--line);
+        color: var(--ink)
+    }
+
+    .social-icon:hover {
+        background: var(--red);
+        border-color: var(--red);
+        color: #ffffff
+    }
+
+    .newsletter-form input {
+        background: #29251f;
+        color: var(--ink);
+        border-color: var(--line)
+    }
+
+    .newsletter-form button:hover {
+        background: var(--ink);
+        color: #211f1a;
+        border-color: var(--ink)
+    }
+
+    .about-hero,
+    .hero,
+    .how-hero,
+    .big-copy {
+        background: #332d24
+    }
+
+    .search-suggestions a:hover,
+    .sort-menu button:hover,
+    .sort-menu button.active,
+    .slot.active {
+        background: #3a3329
+    }
+
+    .auth {
+        background: #211f1a
+    }
+
+    .auth-form input {
+        background: #211f1a;
+        color: var(--ink);
+        border-color: var(--line)
+    }
+
+    .toggle-password-btn:hover {
+        color: var(--ink);
+        background: rgba(255, 255, 255, 0.08)
+    }
+
+    .checkbox-label {
+        color: var(--ink) !important
+    }
+
+    .auth-card-footer {
+        border-top-color: var(--line)
+    }
+
+    .auth-art img {
+        filter: brightness(0) invert(1)
+    }
+
+    .payment-row label {
+        border-color: var(--line)
+    }
+
+    .category-stack button.active {
+        background: #3a3329;
+        color: var(--red);
+        border-color: var(--red)
+    }
+
+    .social-login-btn {
+        background: #29251f;
+        color: var(--ink);
+        border-color: var(--line)
+    }
+
+    .social-login-btn:hover {
+        background: #3a3329;
+        border-color: var(--ink)
+    }
+
+    .mobile-filter-btn {
+        background: #29251f;
+        color: var(--ink);
+        border-color: var(--line)
+    }
+
+    .filter-modal-content,
+    .filter-modal-footer {
+        background: #211f1a;
+        color: var(--ink)
+    }
+
+    @media (max-width: 1000px) {
+        .site-header nav {
+            background: #211f1a !important;
+            border-color: var(--line) !important;
+        }
+
+        .site-header nav a {
+            color: #f8f0e3 !important;
+            border-bottom-color: var(--line) !important;
+        }
+
+        .site-header nav a:hover,
+        .site-header nav a.active {
+            color: var(--red) !important;
+        }
+
+        .site-header nav a.nav-login-btn {
+            background: var(--ink) !important;
+            color: #211f1a !important;
+        }
+
+        .site-header nav a.nav-login-btn:hover {
+            background: var(--red) !important;
+            color: #ffffff !important;
+        }
+
+        .menu-toggle {
+            background: #312c24 !important;
+            color: var(--ink) !important;
+            border-color: var(--line) !important;
+        }
+    }
+}
