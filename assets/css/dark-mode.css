@@ -90,6 +90,7 @@
 
     .product-card,
     .collection-card,
+    .collection-rail a,
     .how-panel,
     .table-rules div,
     .value {
@@ -161,13 +162,15 @@
         background: #3a3329
     }
 
-    .mini-collections a {
+    .mini-collections a,
+    .collection-rail a {
         background: #29251f;
         color: var(--ink);
         border-color: var(--line)
     }
 
-    .mini-collections a:hover {
+    .mini-collections a:hover,
+    .collection-rail a:hover {
         background: #3a3329;
         color: var(--red);
         border-color: var(--red)

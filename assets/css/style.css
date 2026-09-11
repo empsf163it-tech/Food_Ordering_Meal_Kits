@@ -333,7 +333,8 @@ img {
 
 .collection-rail b {
     display: block;
-    font: 700 11px var(--nav)
+    font: 700 11px var(--nav);
+    color: var(--ink)
 }
 
 .collection-rail small {
